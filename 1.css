@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+ul {
+    padding:0;
+    margin:0;
+}
+li{
+	list-style-type: none;
+}
+/* End global defined */
+.headertop{
+	background: #000;
+	min-height: 50px;
+}
+.headertop-left{
+	float:left;
+}
+.headertop-left .dropdown1 {
+    position: relative;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    margin-top: 1em;
+    cursor: pointer;
+}
+.headertop-right{
+	float:right;
+}
+.headertop-right ul li:nth-child(1) {
+    border-left: 1px solid;
+}
+.headertop-right ul li {
+    display: inline-block;
+    border-right: 1px solid;
+    padding: 1em 1em;
+}
+.headertop-right ul li.text a {
+    color: #fff;
+}
+.headertop-right ul li a {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #999;
+    text-decoration: none;
+}
+span.simpleCart_total {
+    color: white;
+    font-size: small;
+}
+.cartbox p {
+    float: right;
+    font-size: 0.8em;
+    margin: 0.3em 0.3em 0;
+    color: red !important;
+}
+/* Css for iphone 5 */
+@media screen and (max-width: 320px){
+	.headertop {
+	    background: #000;
+	    min-height: 50px;
+	    width: 100%;
+	}
+	.headertop-right ul li {
+	    display: inline-block;
+	    border-right: 1px solid;
+	    padding: 0px;
+	    line-height: 50px;
+	}
+
+}
+/* End top header */
