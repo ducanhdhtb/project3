@@ -328,3 +328,29 @@ img {
     font-weight: 600;
 }
 /* ENd Start subcribe */
+/* Start footer */
+.footer-section {
+    padding: 4em 0;
+}
+.footer-grid h4 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 0.5em;
+}
+.footer-grid ul li a {
+    font-size: 0.9em;
+    text-decoration: none;
+    line-height: 2em;
+    color: #B7B4B4;
+    list-style: none;
+    text-transform: capitalize;
+}
+.social-icons {
+    margin-bottom: 1em;
+}
+.fa-2x {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+/* ENd Start footer */
