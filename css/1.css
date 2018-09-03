@@ -216,3 +216,23 @@ img {
 	margin: 0;
 }
 /* End Start slider */
+/* Start gallery */
+.gallery {
+    padding: 3em 0px 0px;
+    border: 1px solid black;
+    background: red;
+}
+.gallery h3 {
+    text-align: center;
+}
+/* End Start gallery */
+/* Start gallery */
+.gallery {
+    padding: 3em 0px 0px;
+    border: 1px solid black;
+    background: red;
+}
+.gallery h3 {
+    text-align: center;
+}
+/* End Start gallery */
