@@ -217,22 +217,77 @@ img {
 }
 /* End Start slider */
 /* Start gallery */
-.gallery {
-    padding: 3em 0px 0px;
-    border: 1px solid black;
-    background: red;
-}
+
 .gallery h3 {
     text-align: center;
 }
 /* End Start gallery */
 /* Start gallery */
 .gallery {
-    padding: 3em 0px 0px;
-    border: 1px solid black;
-    background: red;
+    padding: 3em 0px 0px;   
 }
 .gallery h3 {
     text-align: center;
+    font-size: 2em;
+    color: #000;
+    text-transform: capitalize;
 }
+.gallery-grid img {
+     border: 1px solid #eee; 
+}
+.gallery-info {
+    position: absolute;
+    top: 86%;
+    left: 8px;
+    width: 94%;
+    background: rgba(25, 23, 23, 0.4);
+    padding: 0.5em 0;
+    display: none;
+}
+.gallery-grid:hover .gallery-info{
+    display: block;
+}
+.gallery-grids {
+    margin-top: 3em;
+}
+.gallery-info {
+    position: absolute;
+    top: 70%;
+    left: 15px;
+    width: 89.5%;
+    background: rgba(25, 23, 23, 0.4);
+    padding: 5px 0px 6px 0px;
+    display: none;
+}
+.gallery-grid a {
+    display: block;
+}
+.quick {
+    text-align: center;
+}
+.quick p {
+    color: #fff;
+    text-transform: capitalize;
+}
+.gallery-grid a {
+    color: #000;
+}
+.galy-info p {
+    font-size: 1em;
+    color: #000;
+    margin: 1em 0 0;
+    font-weight: 600;
+}
+.galry {
+    margin-top: 1em;
+}
+.prices {
+    float: right;
+}
+.rating {
+    direction: rtl;
+    text-align: center;
+    float: left;
+}
+
 /* End Start gallery */
